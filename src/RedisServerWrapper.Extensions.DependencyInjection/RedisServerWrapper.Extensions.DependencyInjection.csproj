@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <nullable>enable</nullable>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/CreatioVitae/RedisServerWrapper</RepositoryUrl>
+    <Version>0.1.0</Version>
+    <Authors>Vitae</Authors>
+    <Description>RedisServerWrapper DI Settings...</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="RedisServerWrapper" Version="0.1.0" />
+  </ItemGroup>
+</Project>
