@@ -1,9 +1,9 @@
-namespace RedisServerWrapper {
-    public record RedisSettings {
-        public string ConnectionString { get; init; } = string.Empty;
+namespace RedisServerWrapper;
 
-        public string InstanceName { get; init; } = string.Empty;
+public record RedisSettings {
+    public string ConnectionString { get; init; } = string.Empty;
 
-        public int DatabaseId { get; init; } = 0;
-    }
+    public string InstanceName { get; init; } = string.Empty;
+
+    public int DatabaseId { get; init; } = 0;
 }
