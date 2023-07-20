@@ -1,20 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <nullable>enable</nullable>
-    <RepositoryType>git</RepositoryType>
+      <OutputType>Library</OutputType>
+      <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/CreatioVitae/RedisServerWrapper</RepositoryUrl>
-    <Version>0.2.1</Version>
+    <Version>0.3.1</Version>
     <Authors>Vitae</Authors>
     <Description>RedisServerWrapper DI Settings...</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageReleaseNotes>Update .NET6</PackageReleaseNotes>
+    <PackageReleaseNotes>Update .NET7</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
-    <FrameworkReference Include="Microsoft.AspNetCore.App" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="RedisServerWrapper" Version="0.2.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="7.0.4" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="RedisServerWrapper" Version="0.3.1" />
   </ItemGroup>
 </Project>

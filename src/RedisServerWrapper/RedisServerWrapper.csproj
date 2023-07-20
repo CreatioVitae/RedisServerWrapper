@@ -1,16 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <Version>0.2.1</Version>
+    <Version>0.3.1</Version>
     <Authors>Vitae</Authors>
     <Description>RedisServer Wrapper.
 use CloudStructure...</Description>
     <RepositoryUrl>RedisSettings</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RepositoryType>git</RepositoryType>
-    <PackageReleaseNotes>Update .NET6</PackageReleaseNotes>
+    <PackageReleaseNotes>Update .NET7</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
