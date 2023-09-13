@@ -3,18 +3,19 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <Version>0.3.1</Version>
+    <Version>0.3.2</Version>
     <Authors>Vitae</Authors>
     <Description>RedisServer Wrapper.
 use CloudStructure...</Description>
     <RepositoryUrl>RedisSettings</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RepositoryType>git</RepositoryType>
-    <PackageReleaseNotes>Update .NET7</PackageReleaseNotes>
+    <PackageReleaseNotes>Upgrade package.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="CloudStructures" Version="3.2.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.6.122" />
   </ItemGroup>
 
 </Project>
